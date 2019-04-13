@@ -10,7 +10,7 @@ export const environment = {
     databaseURL: "https://cares-563ca.firebaseio.com",
     projectId: "cares-563ca",
     storageBucket: "cares-563ca.appspot.com",
-    messagingSenderId: "354150206790"
+    messagingSenderId: "***"
   }
 };
 
