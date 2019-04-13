@@ -1,0 +1,32 @@
+<div class="page-container">
+	<div class="side-bar">
+		<ul class="nav flex-column">
+	  	<li class="nav-item">
+	    	<a class="nav-link active" routerLink="home">
+					<ion-icon name="home"></ion-icon>
+				</a>
+	  	</li>
+	  	<li class="nav-item">
+	    	<a class="nav-link" routerLink="new-diaper">
+					<ion-icon name="water"></ion-icon>
+				</a>
+	  	</li>
+		  <li class="nav-item">
+	    	<a class="nav-link" routerLink="new-sleep">
+					<ion-icon name="moon"></ion-icon>
+				</a>
+	  	</li>
+		  <li class="nav-item">
+	    	<a class="nav-link" routerLink="new-feed">
+					<ion-icon name="nutrition"></ion-icon>
+				</a>
+		  </li>
+		  <li class="nav-item">
+				<button type="button" (click)="logout()" class="btn btn-link">Log<br />out</button>
+		  </li>
+		</ul>
+	</div>
+	<div class="content-container">
+ 		<router-outlet></router-outlet>
+	</div>
+</div>
